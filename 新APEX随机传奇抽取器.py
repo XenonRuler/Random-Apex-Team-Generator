@@ -4,7 +4,7 @@ string_list_CN = ['艾许', '疯麻吉', '弹道', '班加罗尔', '暴雷', '�
 string_list_EN = ['Please fill in the legend name yourself']
 
 # 确保不重复选中英雄
-selected_heroes = random.sample(string_list_cn, 3)  # 随机选择3个不重复的名字
+selected_heroes = random.sample(string_list_CN, 3)  # 随机选择3个不重复的名字
 print(f"这把需要选用的阵容是: {selected_heroes[0]}， {selected_heroes[1]}， {selected_heroes[2]}")
 
 str_gun = ["电能子弹", "重型子弹", "轻型子弹", "狙击子弹", "霰弹子弹"]
